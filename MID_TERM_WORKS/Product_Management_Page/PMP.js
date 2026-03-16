@@ -20,7 +20,10 @@ quantityInput.addEventListener("input", function(){
     totalDisplay.value = total;
 
     if(total > 1000){
+
+       
         alert("Congratulations! You are eligible for a Gift Coupon!");
+         
     }
 
 });
