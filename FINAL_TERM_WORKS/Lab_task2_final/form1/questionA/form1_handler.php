@@ -1,4 +1,4 @@
 <?php
     $name = $_POST['username'];
-    echo "<h2>Hello, $name</h2>";
+    echo "<h2> Input Name: $name</h2>";
 ?>
