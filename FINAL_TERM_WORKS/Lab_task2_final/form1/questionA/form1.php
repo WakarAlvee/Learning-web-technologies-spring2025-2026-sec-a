@@ -1,4 +1,0 @@
-<?php
-    $name = $_POST['username'];
-    echo "<h2>Hello, $name</h2>";
-?>
