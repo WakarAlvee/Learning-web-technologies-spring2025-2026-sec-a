@@ -1,19 +1,17 @@
 <?php
-// login.php
+// forgot_password.php
 session_start();
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>xCompany - Login</title>
+    <title>xCompany - Forgot Password</title>
 </head>
 <body>
 
     <table width="100%">
         <tr>
-            <td>
-                <h1>XCompany</h1>
-            </td>
+            <td><h1>XCompany</h1></td>
             <td align="right">
                 <a href="index.php">Home</a> | 
                 <a href="login.php">Login</a> | 
@@ -24,15 +22,12 @@ session_start();
 
     <hr>
 
-    <form method="post" action="login_check.php">
+    <form method="post" action="forgot_password_check.php">
         <fieldset style="width: 300px;">
-            <legend>LOGIN</legend>
-            User Name: <input type="text" name="username"><br>
-            Password: <input type="password" name="password"><br>
+            <legend>FORGOT PASSWORD</legend>
+            Enter Email: <input type="text" name="email"><br>
             <hr>
-            <input type="checkbox" name="remember"> Remember Me<br>
             <input type="submit" value="Submit">
-            <a href="forgot_password.php">Forgot Password?</a>
         </fieldset>
     </form>
 
